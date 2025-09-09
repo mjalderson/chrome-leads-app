@@ -17,7 +17,7 @@ deleteBtn.addEventListener("dblclick", function() {
 //    localStorage.removeItem("myLeads")
     localStorage.clear()
     myLeads = []
-    ulEl.value = ""
+    ulEl.innerHTML = ""
 })
 
 inputBtn.addEventListener("click", function() {
